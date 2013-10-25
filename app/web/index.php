@@ -74,7 +74,7 @@ ini_set('memory_limit', '-1');
 		include_once LF_PATH . DS .'Core'.DS.'Error.php';
 				
 		$lf = new lf\Core\LF($fct_out, array('Auth'=> array('redirect' => array(
-			'controller' => 'page',
+			'controller' => 'pages',
 			'action' => 'index'
 		))));
 		
